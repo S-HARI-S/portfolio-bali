@@ -250,7 +250,7 @@ ul
 
 .aa1{
     height: 15vw;
-    width: 73vw; 
+    width: 100vw; 
 }
 
 
@@ -267,4 +267,10 @@ ul
 .ss{
     text-decoration: none;
     color: #ffffff;
+}
+
+.aa2
+{
+    height: 15vw;
+    width: 40vw;   
 }
