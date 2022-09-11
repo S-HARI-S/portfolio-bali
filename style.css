@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body
+{
+    background: #f79d00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.name
+{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.photo
+{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+
+
+.balii
+{
+    max-width: auto;
+    height: 100%;
+   
+}
+
+.text
+{
+    font-size: 6vw;
+    color: rgb(228, 145, 77);
+    font-family: 'Pacifico', cursive;
+}
+
+.mbali
+{
+    
+    font-size: 9vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.navbar-brand
+{
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-brand:hover
+{
+    color: #ff6200;
+}
+
+.nav-item
+{
+    
+    font-family: 'Abril Fatface', cursive;
+}
+
+.mbali:hover{
+    font-size: 0;
+}
+
+.mbali:hover:after{
+   content:attr(data-hover);
+   font-size: 10vw;
+}
+
+.sup
+{
+    height:25vw;
+   padding-top: 5%;
+    text-align: end;
+}
+
+.do
+{
+    height:25vw;
+    padding-top: 5%;
+}
+
+
+.bout
+{
+    font-weight: 580;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 2px 2px #f56868;
+    font-family: 'Abril Fatface', cursive; 
+}
+
+p{
+    font-size: 1.2vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.santh
+{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    color: rgb(231, 140, 140);
+    font-family: 'Noto Serif Malayalam', serif; 
+}
+
+
+.ll
+{
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 2px 2px #ff7b00;
+}
+
+.ll:hover
+{
+    font-size: 5vw;
+    color: rgb(255, 251, 0); 
+}
+
+
+.mm{
+    height: 8vw;
+    font-weight:auto;
+}
+
+.mail
+{
+    margin: 10px;
+}
+
+.mj
+{
+    height: 7vw;
+    font-weight:auto;
+}
+
+.kk
+{
+    font-size: 7vw;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    text-shadow: 2px 2px #ff7b00;
+    font-family: 'Abril Fatface', cursive;  
+}
+
+.qw
+{
+    height:25vw;
+    flex-direction: column;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+ul
+{
+    font-size: 1.4vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.baa
+{
+    height: 100%;
+    width: auto;
+    filter:drop-shadow(4px 4px  rgb(65, 65, 65));
+}
+
+.skills
+{
+   flex-direction: column;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hhh
+{
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    text-shadow: 2px 2px #ff7b00;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.b1 ,.b2 , .b3
+{   margin-top: 3vw;
+    display: flex;
+    height: 16vw;
+    width: 90vw;
+    border-radius: 2vw;
+    justify-content: center;
+    align-items: center;
+    
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.qw2
+{
+    height:25vw;
+    flex-direction: column;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f56868;
+}
+
+.b1:hover ,.b2:hover , .b3:hover
+{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgb(255, 140, 0);
+}
+
+.aa{
+    height: 15vw;
+    width: auto;
+}
+
+.aa1{
+    height: 15vw;
+    width: 73vw; 
+}
+
+
+
+.section4
+{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ss{
+    text-decoration: none;
+    color: #ffffff;
+}
